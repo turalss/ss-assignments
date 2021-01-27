@@ -1,8 +1,6 @@
-package com.week1.day5.lambdas;
+package com.week1.week1assignment;
 
 import java.math.BigDecimal;
-import java.security.interfaces.RSAKey;
-import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
