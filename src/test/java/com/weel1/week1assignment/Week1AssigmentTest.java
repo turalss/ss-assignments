@@ -1,4 +1,4 @@
-package com.week1.week1assignment;
+package com.weel1.week1assignment;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
@@ -7,6 +7,8 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.junit.Test;
+
+import com.week1.week1assignment.Week1Assigment;
 
 public class Week1AssigmentTest {
 	
