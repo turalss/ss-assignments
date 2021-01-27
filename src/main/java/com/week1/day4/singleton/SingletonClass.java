@@ -4,9 +4,9 @@ package com.week1.day4.singleton;
  *  Implementing Singleton with double checked blocking
  */
 
-class SingletonClass {
+public class SingletonClass {
 
-	private static SingletonClass instance;
+	volatile private static SingletonClass instance;
 	private int i;
 
 	private SingletonClass() {

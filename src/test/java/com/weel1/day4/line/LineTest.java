@@ -1,7 +1,9 @@
 package com.weel1.day4.line;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Rule;
 import org.junit.Test;
@@ -56,11 +58,22 @@ public class LineTest {
 		assertNotEquals(2.0, line.getDistance());
 	}
 	
+	/*******************************************************************
+	 * Question 4
+	 * 
+	 * return weather line parallel to another
+	 ******************************************************************/
 	
+	@Test
+	public void testParallelToSuccess() {
+		Line mLine = new Line(4, 4, 10, 10);
+		assertTrue(line.paralellTo(mLine));
+	}
 	
+	@Test
+	public void testParallelToFailure() {
+		Line mLine = new Line(5, 4, 10, 10);
+		assertFalse(line.paralellTo(mLine));
+	}
 	
-	
-	
-	
-
 }

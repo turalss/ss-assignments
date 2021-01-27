@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="ss-assignments/week1day1/src"/>
+	<classpathentry kind="src" path="ss-assignments/week1day2/src"/>
+	<classpathentry kind="src" path="ss-assignments/week1day3/src"/>
+	<classpathentry kind="src" path="ss-assignments/week1day4/src/main/java"/>
+	<classpathentry kind="src" path="ss-assignments/week1day4/src/test/java"/>
+	<classpathentry kind="src" path="ss-assignments/week1day5/src/main/java"/>
+	<classpathentry kind="src" path="week1day1/src"/>
+	<classpathentry kind="src" path="week1day2/src"/>
+	<classpathentry kind="src" path="week1day3/src"/>
+	<classpathentry kind="src" path="week1day4/src/main/java"/>
+	<classpathentry kind="src" path="week1day4/src/test/java"/>
+	<classpathentry kind="src" path="week1day5/src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="week1day1/bin"/>
+</classpath>

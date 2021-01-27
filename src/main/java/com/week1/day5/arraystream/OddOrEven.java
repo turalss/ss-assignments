@@ -12,13 +12,12 @@ public class OddOrEven {
 	public static void main(String[] args) {
 		
 		// Q1
-		List<Integer> listOfNums = new ArrayList<>(Arrays.asList(3, 44, 1, 19));
+		List<Integer> listOfNums = Arrays.asList(3, 44, 1, 19);
 		System.out.println(addEandOwithComma(listOfNums));
 		
 		// Q2
-		List<String> listOfStrings = new ArrayList<>(Arrays.asList("tutu", "tam", "ali", "Abi"));
-		listOfStrings.stream().filter(s -> s.startsWith("a") && s.length() == 3)
-		.forEach(System.out::println);
+		List<String> listOfStrings = Arrays.asList("tutu", "tam", "ali", "Abi");
+		listOfStrings.stream().filter(s -> s.startsWith("a") && s.length() == 3);
 	}
 	
 	// check if each element is ODD or EVEN and append a letter with comma and return as String

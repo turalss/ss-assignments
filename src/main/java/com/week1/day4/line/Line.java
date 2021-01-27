@@ -6,10 +6,10 @@ package com.week1.day4.line;
 
 public class Line {
 
-	public double x0;
-	public double y0;
-	public double x1;
-	public double y1;
+	private double x0;
+	private double y0;
+	private double x1;
+	private double y1;
 
 	// construct Line object
 	public Line(double x0, double y0, double x1, double y1) {
@@ -35,9 +35,20 @@ public class Line {
 	public double getDistance() {
 		return Math.sqrt((x1 - x0) * (x1 - x0) + (y1 - y0) * (y1 - y0));
 	}
+	
+	// return weather line parallel to another
+	public boolean paralellTo(Line l) {
+		if(Math.abs(getSlope() - l.getSlope()) < 0.001) {
+			return true;
+		}
+		return false;
+	}
 
 	public static void main(String[] args) {
 		Line nLine = new Line(2, 2, 5, 5);
+		Line mLine = new Line(4, 4, 10, 10);
+		
+		System.out.println(nLine.paralellTo(mLine));
 
 		System.out.println(nLine.getSlope());
 		System.out.println(nLine.getDistance());
